@@ -8,6 +8,6 @@ searchBtn.addEventListener('click', () => {
         console.log(res.statusText)
         console.log(res)
         console.log(res.body)
-        res.json()
+        let result = JSON.parse(res.body)
     }).then(data => console.log(data)).catch(err => console.error('err'))
 })
