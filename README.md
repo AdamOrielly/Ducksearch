@@ -1,2 +1,2 @@
 # Ducksearch
-A simple webpage to get DuckDuck Go Instant Answer API search results.
+A simple webpage to get <a href="https://api.duckduckgo.com/api">DuckDuck Go Instant Answer API</a> search results.
