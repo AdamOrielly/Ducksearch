@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckDuck Search</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <section class="bd-container">
+    <a class="home" id="home"><h1>Search DuckDuck Go</h1></a>
+    <div class="duck__note">
+        <img src="https://api.duckduckgo.com/i/f96d4798.png">
+        <div class="duck__note__description">
+            <p>This search is done through DuckDuck Go<br>Instant Answer API</p>
+            <a class="duck__link" href="https://api.duckduckgo.com/api" rel="nofollow noreferrer">https://api.duckduckgo.com/api</a>
+        </div>
+    </div>
+    </section>
+    <section class="bd-container">
+        <div class="duck__search">
+        <div class="form__div">
+            <input type="text" id="input1" class="form__input" placeholder="enter your search query">
+            <label for="" class="form__label"></label>
+        </div>
+        <input type="submit" class="button" id="form__button" value="Search">
+        <div class="duck__result" id="duck__result"></div>
+        </div>
+    </section>
+    </main>
+
+    <script src="main.js"></script>    
+</body>
+</html>
