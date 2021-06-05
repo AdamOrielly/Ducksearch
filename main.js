@@ -5,12 +5,13 @@ searchBtn.addEventListener('click', () => {
         console.log(res.status)
         console.log(res.statusText)
         console.log(res)
-        let resResult = res.json().body
+        let Result = JSON.stringify(res)
+        let resResult = JSON.parse(Result)
         let duckResult = document.getElementById('duck__result')
         duckResult.style.display = 'flex'
         duckResult.innerHTML = `
         <h2>${resResult.Heading}</h2>
-        <img src="https://api.duckduckgo.com${resResult.Image}" style="width: 30vw;">
+        <img src="https://api.duckduckgo.com${resResult.Image}" style="width: 30vw; max-width: 250px;">
         <p>${resResult.Abstract}</p>
         <h3>${resResult.AbstractSource}</h3>
 
