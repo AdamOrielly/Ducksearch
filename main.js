@@ -5,7 +5,7 @@ searchBtn.addEventListener('click', () => {
         console.log(res.status)
         console.log(res.statusText)
         console.log(res)
-        let resResult = JSON.stringify(res)
+        let resResult = JSON.parse(res)
         let duckResult = document.getElementById('duck__result')
         duckResult.style.display = 'flex'
         duckResult.innerHTML = `
