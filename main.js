@@ -23,7 +23,7 @@ searchBtn.addEventListener('click', () => {
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
 fetch('https://api.duckduckgo.com/?q=meow+meow+meow&format=json', {
-    method: 'POST',
+    method: 'PUT',
     body: JSON.stringify({
         Abstract: 'meow meow meowww',
         AbstractSource: 'Wikipedia',
