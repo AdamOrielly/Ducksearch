@@ -16,7 +16,7 @@ searchBtn.addEventListener('click', () => {
         <img src="https://api.duckduckgo.com${resResult.Image}" style="width: 30vw; max-width: 250px;">
         <p>${resResult.Abstract}</p>
         <h3>${resResult.AbstractSource}</h3>
-        <p>${resResult.RelatedTopics[0].Object.Text}</p>
+        <p>${resResult.RelatedTopics[0].Text}</p>
         <img src="https://api.duckduckgo.com${resResult.RelatedTopics[0].Icon}" style="width: 20vw; max-width: 200px;">
         `
     }).catch(err => console.error('err'))
