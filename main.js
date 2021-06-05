@@ -9,7 +9,7 @@ searchBtn.addEventListener('click', () => {
         let duckResult = document.getElementById('duck__result')
         duckResult.style.display = 'flex'
         duckResult.innerHTML = `
-        <h2>${Response.Abstract}</h2>
+        <h2>${res.body}</h2>
         `
     }).catch(err => console.error('err'))
 })
