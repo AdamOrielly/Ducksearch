@@ -25,7 +25,8 @@ home.addEventListener('click', () => {
 fetch('https://api.duckduckgo.com/?q=meow+meow+meow&format=json', {
     method: 'POST',
     headers: {
-        'Access-Control-Allow-Origin': '*'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': 'https://api.duckduckgo.com'
     },
     body: JSON.stringify({
         Abstract: 'meow meow meowww',
