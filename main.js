@@ -9,7 +9,11 @@ searchBtn.addEventListener('click', () => {
         let duckResult = document.getElementById('duck__result')
         duckResult.style.display = 'flex'
         duckResult.innerHTML = `
-        <h2>${res.Abstract}</h2>
+        <h2>${res.Heading}</h2>
+        <img src="${res.Image}" style="width: 20vw;">
+        <p>${res.Abstract}</p>
+        <h3>${res.AbstractSource}</h3>
+
         `
     }).catch(err => console.error('err'))
 })
