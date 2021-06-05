@@ -5,7 +5,6 @@ searchBtn.addEventListener('click', () => {
         console.log(res.status)
         console.log(res.statusText)
         console.log(res)
-        res.json()
-        console.log(res.json())
+        res.body.json()
     }).then(data => console.log(data)).catch(err => console.error('err'))
 })
