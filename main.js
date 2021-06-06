@@ -128,7 +128,8 @@ fetch('https://api.duckduckgo.com/?q=meowie&format=json', {
 }).then(res => {
     console.log(res.status)
     console.log(res.statusText)
-    return res.json()
-
+    return data = res.json()
+}).then(data => {
+    console.log(data)
 }).catch(err => console.error('err'))
 })
