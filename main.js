@@ -126,10 +126,10 @@ home.addEventListener('click', () => {
 fetch('https://api.duckduckgo.com/?q=meownnt&format=json', {
     method: 'POST',
     body: JSON.stringify(meow)
-}).then(async res => {
+}).then(res => {
     console.log(res)
-    await res.json()
-}).then(data => {
-    console.log(data)
-}).catch(_err => console.error('err'))
+    return resData = res.json()
+}).then(resData => {
+    console.log(resData)
+})
 })
