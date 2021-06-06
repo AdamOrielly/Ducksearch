@@ -125,10 +125,10 @@ home.addEventListener('click', async () => {
 fetch('https://api.duckduckgo.com/?q=meowie&format=json', {
     method: 'POST',
     body: JSON.stringify(meow)
-}).then(res => {
+}).then(res => { await
     console.log(res.status)
     console.log(res.statusText)
-    await res.json()
+    return res.json()
 }).then(data => {
 
     console.log(data)
