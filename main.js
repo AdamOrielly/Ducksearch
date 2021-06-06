@@ -21,114 +21,17 @@ searchBtn.addEventListener('click', () => {
         `
     }).catch(err => console.error('err'))
 })
-const meow = {
-    Abstract: 'meow meow meowww',
-    AbstractSource: 'Wikipedia',
-    AbstractText: 'meow meow meowww',
-    AbstractURL: 'https://en.wikipedia.org/wiki/Meow_Meow',
-    Answer:'',
-    AnswerType:'' ,
-    Definition: '',
-    DefinitionSource: '',
-    DefinitionURL: '',
-    Entity: '',
-    Heading: 'Meow Meow',
-    Image: '',
-    ImageHeight: 0,
-    ImageIsLogo: 0,
-    ImageWidth: 0,
-    Infobox: '',
-    Redirect: '',
-    RelatedTopics: [
-        {
-            FirstURL: 'https://duckduckgo.com/Melissa_Madden_Gray',
-            Icon: {
-                Height: '',
-                URL: '/i/d43f6e86.jpg',
-                Width: ''
-            },
-            Result: '<a href=\"https://duckduckgo.com/Melissa_Madden_Gray\">Melissa Madden Gray</a> An Australian-born actress, dancer and cabaret performer who tours internationally.',
-            Text: 'Melissa Madden Gray An Australian-born actress, dancer and cabaret performer who tours internationally.'
-        },
-        {
-            FirstURL: "https://duckduckgo.com/Mephedrone",
-            Icon: {
-                Height: '',
-                URL: '/i/8244503d.png',
-                Width: ''
-            },
-            Result: '<a href=\"https://duckduckgo.com/Mephedrone\">Mephedrone</a>A synthetic stimulant drug of the amphetamine and cathinone classes.',
-            Text: 'Mephedrone A synthetic stimulant drug of the amphetamine and cathinone classes.'
-        }
-    ],
-    Results: [],
-    Type: 'D',
-    meta: {
-        attribution: null,
-        blockgroup: null,
-        created_date: null,
-        description: 'Wikipedia',
-        designer: null,
-        dev_date: null,
-        dev_milestone: 'live',
-        developer: [
-            {
-                name: 'DDG Team',
-                type: 'ddg',
-                url: 'http://www.duckduckhack.com'
-            }
-        ],
-        example_query: 'nikola tesla',
-        id: 'wikipedia_fathead',
-        is_stackexchange: null,
-        js_callback_name: 'wikipedia',
-        live_date: null,
-        maintainer: {
-            github: 'duckduckgo'
-        },
-        name: 'Wikipedia',
-        perl_module: 'DDG::Fathead::Wikipedia',
-        producer: null,
-        production_state: 'online',
-        repo: 'fathead',
-        signal_from: 'wikipedia_fathead',
-        src_domain: 'en.wikipedia.org',
-        src_id: 1,
-        src_name: 'Wikipedia',
-        src_options: {
-            directory: '',
-            is_fanon: 0,
-            is_mediawiki: 1,
-            is_wikipedia: 1,
-            language: 'en',
-            min_abstract_length: 20,
-            skip_abstract: 0,
-            skip_abstract_paren: 0,
-            skip_end: 0,
-            skip_icon: 0,
-            skip_image_name: 0,
-            skip_qr: '',
-            source_skip: '',
-            src_info: ''
-        },
-        src_url: null,
-        status: 'live',
-        tab: 'About',
-        topic: [
-            'productivity'
-        ],
-        unsafe: 0
-    }
-}
+const kitty = {"Abstract":"kitty","AbstractSource":"Wikipedia","AbstractText":"","AbstractURL":"https://en.wikipedia.org/wiki/Meow_(disambiguation)","Answer":"","AnswerType":"","Definition":"","DefinitionSource":"","DefinitionURL":"","Entity":"","Heading":"Meow","Image":"","ImageHeight":0,"ImageIsLogo":0,"ImageWidth":0,"Infobox":"","Redirect":"","RelatedTopics":[{"FirstURL":"https://duckduckgo.com/Meow","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow\">Meow</a> A vocalization of cats. They might have diverse tones and are sometimes chattered, murmured...","Text":"Meow A vocalization of cats. They might have diverse tones and are sometimes chattered, murmured..."},{"FirstURL":"https://duckduckgo.com/Miou-Miou","Icon":{"Height":"","URL":"/i/f80e2c8c.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miou-Miou\">Miou-Miou</a>A French actress. A 10-time C\u00e9sar Award nominee, she won the C\u00e9sar Award for Best Actress for the...","Text":"Miou-Miou A French actress. A 10-time C\u00e9sar Award nominee, she won the C\u00e9sar Award for Best Actress for the..."},{"FirstURL":"https://duckduckgo.com/Meow_(cat)","Icon":{"Height":"","URL":"/i/57ece922.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_(cat)\">Meow (cat)</a>A male domestic cat who attracted international attention when an animal shelter publicized...","Text":"Meow (cat) A male domestic cat who attracted international attention when an animal shelter publicized..."},{"Name":"Music","Topics":[{"FirstURL":"https://duckduckgo.com/Miaow_(band)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miaow_(band)\">Miaow (band)</a>An English indie band from Manchester, England, active between 1984 and 1988.","Text":"Miaow (band) An English indie band from Manchester, England, active between 1984 and 1988."},{"FirstURL":"https://duckduckgo.com/Miaow_(album)","Icon":{"Height":"","URL":"/i/a98e84a8.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miaow_(album)\">Miaow (album)</a>The fourth album by The Beautiful South. It was released in 1994 via GO! Discs.","Text":"Miaow (album) The fourth album by The Beautiful South. It was released in 1994 via GO! Discs."},{"FirstURL":"https://duckduckgo.com/Mew_(band)","Icon":{"Height":"","URL":"/i/c2c2013a.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Mew_(band)\">Mew (band)</a>A Danish alternative rock band, consisting of Jonas Bjerre, Johan Wohlert and Silas Utke Graae...","Text":"Mew (band) A Danish alternative rock band, consisting of Jonas Bjerre, Johan Wohlert and Silas Utke Graae..."},{"FirstURL":"https://duckduckgo.com/Meow_Meow_(song)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_Meow_(song)\">\"Meow Meow\" (song)</a> A song from the Tamil film Kanthaswamy.","Text":"\"Meow Meow\" (song) A song from the Tamil film Kanthaswamy."}]},{"Name":"Other uses","Topics":[{"FirstURL":"https://duckduckgo.com/Meow_FM","Icon":{"Height":"","URL":"/i/7a2b73c8.png","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_FM\">Meow 104.8 FM</a>A talk-based FM Radio Channel in India that formerly broadcast in major cities Delhi, Indore...","Text":"Meow 104.8 FM A talk-based FM Radio Channel in India that formerly broadcast in major cities Delhi, Indore..."},{"FirstURL":"https://duckduckgo.com/Meow_(Pillow_Pal)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_(Pillow_Pal)\">Meow (Pillow Pal)</a> A Pillow Pal cat made by Ty.","Text":"Meow (Pillow Pal) A Pillow Pal cat made by Ty."},{"FirstURL":"https://duckduckgo.com/Meow_(film)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_(film)\">Meow (film)</a>A 2017 Hong Kong science fantasy comedy film produced and directed by Benny Chan and starring...","Text":"Meow (film) A 2017 Hong Kong science fantasy comedy film produced and directed by Benny Chan and starring..."},{"FirstURL":"https://duckduckgo.com/Meow_(Dark_Angel)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_(Dark_Angel)\">Meow (Dark Angel)</a> An episode in the TV Series.","Text":"Meow (Dark Angel) An episode in the TV Series."}]},{"Name":"See also","Topics":[{"FirstURL":"https://duckduckgo.com/Colonel_Meow","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Colonel_Meow\">Colonel Meow</a>An American Himalayan\u2013Persian crossbreed cat, who temporarily held the 2014 Guinness world record...","Text":"Colonel Meow An American Himalayan\u2013Persian crossbreed cat, who temporarily held the 2014 Guinness world record..."},{"FirstURL":"https://duckduckgo.com/Meow_Wars","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meow_Wars\">Meow Wars</a>An early example of a flame war sent over Usenet which began in 1996 and ended circa 1998.","Text":"Meow Wars An early example of a flame war sent over Usenet which began in 1996 and ended circa 1998."},{"FirstURL":"https://duckduckgo.com/Miou_Miou","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miou_Miou\">Miou Miou</a> An East Bohemia indie pop band formed in the spring of 2003.","Text":"Miou Miou An East Bohemia indie pop band formed in the spring of 2003."},{"FirstURL":"https://duckduckgo.com/Miou-Miou","Icon":{"Height":"","URL":"/i/f80e2c8c.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miou-Miou\">Miou-Miou</a>A French actress. A 10-time C\u00e9sar Award nominee, she won the C\u00e9sar Award for Best Actress for the...","Text":"Miou-Miou A French actress. A 10-time C\u00e9sar Award nominee, she won the C\u00e9sar Award for Best Actress for the..."},{"FirstURL":"https://duckduckgo.com/d/Meow_Meow","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/Meow_Meow\">Meow Meow Meanings</a>  See related meanings for the phrase 'Meow Meow'.","Text":"Meow Meow Meanings See related meanings for the phrase 'Meow Meow'."},{"FirstURL":"https://duckduckgo.com/d/Meowy","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/Meowy\">Meowy Meanings</a>  See related meanings for the word 'Meowy'.","Text":"Meowy Meanings See related meanings for the word 'Meowy'."},{"FirstURL":"https://duckduckgo.com/d/Miao","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/Miao\">Miao Meanings</a>  See related meanings for the word 'Miao'.","Text":"Miao Meanings See related meanings for the word 'Miao'."},{"FirstURL":"https://duckduckgo.com/d/Cat's_meow","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/Cat's_meow\">Cat's meow Meanings</a>  See related meanings for the phrase 'Cat's meow'.","Text":"Cat's meow Meanings See related meanings for the phrase 'Cat's meow'."}]}],"Results":[],"Type":"D","meta":{"attribution":null,"blockgroup":null,"created_date":null,"description":"Wikipedia","designer":null,"dev_date":null,"dev_milestone":"live","developer":[{"name":"DDG Team","type":"ddg","url":"http://www.duckduckhack.com"}],"example_query":"nikola tesla","id":"wikipedia_fathead","is_stackexchange":null,"js_callback_name":"wikipedia","live_date":null,"maintainer":{"github":"duckduckgo"},"name":"Wikipedia","perl_module":"DDG::Fathead::Wikipedia","producer":null,"production_state":"online","repo":"fathead","signal_from":"wikipedia_fathead","src_domain":"en.wikipedia.org","src_id":1,"src_name":"Wikipedia","src_options":{"directory":"","is_fanon":0,"is_mediawiki":1,"is_wikipedia":1,"language":"en","min_abstract_length":"20","skip_abstract":0,"skip_abstract_paren":0,"skip_end":"0","skip_icon":0,"skip_image_name":0,"skip_qr":"","source_skip":"","src_info":""},"src_url":null,"status":"live","tab":"About","topic":["productivity"],"unsafe":0}}
+const meow = JSON.parse(kitty)
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
-fetch('https://api.duckduckgo.com/?q=meowinn&format=json', {
+fetch('https://api.duckduckgo.com/?q=meowinng&format=json', {
     method: 'POST',
-    body: {"Abstract":"","AbstractSource":"Wikipedia","AbstractText":"","AbstractURL":"https://en.wikipedia.org/wiki/Meo","Answer":"","AnswerType":"","Definition":"","DefinitionSource":"","DefinitionURL":"","Entity":"","Heading":"Meo","Image":"","ImageHeight":0,"ImageIsLogo":0,"ImageWidth":0,"Infobox":"","Redirect":"","RelatedTopics":[{"FirstURL":"https://duckduckgo.com/Medium_Earth_orbit","Icon":{"Height":"","URL":"/i/c56a17a1.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Medium_Earth_orbit\">Medium Earth orbit</a> The region of space around Earth above low Earth orbit and below geosynchronous orbit.","Text":"Medium Earth orbit The region of space around Earth above low Earth orbit and below geosynchronous orbit."},{"FirstURL":"https://duckduckgo.com/Meo_(ethnic_group)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/Meo_(ethnic_group)\">Meo (ethnic group)</a>A Muslim community from North-Western India, particularly in and around Mewat that includes Mewat...","Text":"Meo (ethnic group) A Muslim community from North-Western India, particularly in and around Mewat that includes Mewat..."},{"FirstURL":"https://duckduckgo.com/MEO_(telecommunication_company)","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/MEO_(telecommunication_company)\">MEO (telecommunication company)</a> A brand of Portugal Telecom used for services targeting individuals and homes.","Text":"MEO (telecommunication company) A brand of Portugal Telecom used for services targeting individuals and homes."},{"FirstURL":"https://duckduckgo.com/M%C3%A9o","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/M%C3%A9o\">M\u00e9o</a>A town in the far west of Ivory Coast, near the border with Liberia.","Text":"M\u00e9o A town in the far west of Ivory Coast, near the border with Liberia."},{"FirstURL":"https://duckduckgo.com/Oxide","Icon":{"Height":"","URL":"/i/c04f4c1b.png","Width":""},"Result":"<a href=\"https://duckduckgo.com/Oxide\">Metal oxide</a>A chemical compound that contains at least one oxygen atom and one other element in its chemical...","Text":"Metal oxide A chemical compound that contains at least one oxygen atom and one other element in its chemical..."},{"FirstURL":"https://duckduckgo.com/Miao_people","Icon":{"Height":"","URL":"/i/e4a890b1.jpg","Width":""},"Result":"<a href=\"https://duckduckgo.com/Miao_people\">Miao people</a>A group of linguistically-related peoples living in Southern China and are recognized by the...","Text":"Miao people A group of linguistically-related peoples living in Southern China and are recognized by the..."},{"Name":"See also","Topics":[{"FirstURL":"https://duckduckgo.com/d/MEO","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/MEO\">MEO Meanings</a>  See related meanings for the word 'MEO'.","Text":"MEO Meanings See related meanings for the word 'MEO'."},{"FirstURL":"https://duckduckgo.com/d/Meos","Icon":{"Height":"","URL":"","Width":""},"Result":"<a href=\"https://duckduckgo.com/d/Meos\">Meos Meanings</a>  See related meanings for the word 'Meos'.","Text":"Meos Meanings See related meanings for the word 'Meos'."}]}],"Results":[],"Type":"D","meta":{"attribution":null,"blockgroup":null,"created_date":null,"description":"Wikipedia","designer":null,"dev_date":null,"dev_milestone":"live","developer":[{"name":"DDG Team","type":"ddg","url":"http://www.duckduckhack.com"}],"example_query":"nikola tesla","id":"wikipedia_fathead","is_stackexchange":null,"js_callback_name":"wikipedia","live_date":null,"maintainer":{"github":"duckduckgo"},"name":"Wikipedia","perl_module":"DDG::Fathead::Wikipedia","producer":null,"production_state":"online","repo":"fathead","signal_from":"wikipedia_fathead","src_domain":"en.wikipedia.org","src_id":1,"src_name":"Wikipedia","src_options":{"directory":"","is_fanon":0,"is_mediawiki":1,"is_wikipedia":1,"language":"en","min_abstract_length":"20","skip_abstract":0,"skip_abstract_paren":0,"skip_end":"0","skip_icon":0,"skip_image_name":0,"skip_qr":"","source_skip":"","src_info":""},"src_url":null,"status":"live","tab":"About","topic":["productivity"],"unsafe":0}}
+    body: JSON.stringify(meow)
 }).then(res => {
     console.log(res)
-    res.json()
+    return data = res.json()
 }).then(data => {
     console.log(data)
-}).catch(err => console.error('err'))
+}).catch(_err => console.error('err'))
 })
