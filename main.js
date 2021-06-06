@@ -23,9 +23,9 @@ searchBtn.addEventListener('click', () => {
 })
 
 const meow = {
-    Abstract: 'meow meow meowww',
+    Abstract: '',
     AbstractSource: 'Wikipedia',
-    AbstractText: 'meow meow meowww',
+    AbstractText: '',
     AbstractURL: 'https://en.wikipedia.org/wiki/Meow_Meow',
     Answer:'',
     AnswerType:'' ,
@@ -123,15 +123,14 @@ const meow = {
 }
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
-fetch('https://api.duckduckgo.com/?q=meownntii', {
+fetch('https://api.duckduckgo.com/?q=meownntei', {
     method: 'POST',
-    body: meow
+    body: JSON.stringify(meow)
 }).then(res => {
     console.log(res)
     return data = res.json()            
 }).then(data => {
     let resData = JSON.stringify(data)
-    let presData = JSON.parse(resData)
-    console.log(presData)
+    console.log(resData)
 }).catch(err => console.error('err'))
 })
