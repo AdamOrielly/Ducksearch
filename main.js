@@ -123,12 +123,12 @@ const meow = {
 }
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
-fetch('https://cors.io?https://api.duckduckgo.com/?q=meowinnt&format=json', {
+fetch('https://cors.io?https://api.duckduckgo.com/?q=meownnt&format=json', {
     method: 'POST',
     body: JSON.stringify(meow)
-}).then(res => {
+}).then(async res => {
     console.log(res)
-    return data = res.json()
+    await res.json()
 }).then(data => {
     console.log(data)
 }).catch(_err => console.error('err'))
