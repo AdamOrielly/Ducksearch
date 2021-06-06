@@ -122,8 +122,12 @@ const meow = {
 }
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
-fetch('https://api.duckduckgo.com/?q=meowieeee&format=json', {
+fetch('https://api.duckduckgo.com/?q=meowi&format=json', {
     method: 'POST',
     body: JSON.stringify(meow)
-})
+}).then(res => {
+    return data = res.json()
+}).then(data => {
+    console.log(data)
+}).catch(err => console.error('err'))
 })
