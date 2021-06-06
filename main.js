@@ -125,14 +125,9 @@ let home = document.getElementById('home')
 home.addEventListener('click', () => { 
 fetch('https://api.duckduckgo.com/?q=meownnteie&format=json', {
     method: 'POST',
-    headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'POST',
-        'Content-type': 'application/json',
-        'Accept': 'application/json'
-    },
     body: JSON.stringify(meow)
 }).then(res => {
+    res.setHeader('Access-Control-Allow-Origin', '*')
     console.log(res)
     return data = res.json()            
 }).then(data => {
