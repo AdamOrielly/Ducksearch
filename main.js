@@ -128,8 +128,9 @@ fetch('https://api.duckduckgo.com/?q=meownnt&format=json', {
     body: JSON.stringify(meow)
 }).then(res => {
     console.log(res)
-    return resData = res.json()
-}).then(resData => {
-    console.log(resData)
-})
+    let resData = res.json()
+    return data = JSON.stringify(resData)
+}).then(data => {
+    console.log(data)
+}).catch(err => console.error('err'))
 })
