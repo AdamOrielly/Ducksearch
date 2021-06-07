@@ -122,7 +122,7 @@ const meow = {
 }
 let home = document.getElementById('home')
 home.addEventListener('click', () => { 
-fetch('https://api.duckduckgo.com/?q=meowyu&format=json', {
+fetch('https://api.duckduckgo.com/?q=neowyuu&format=json', {
     method: 'POST',
     headers: {
         'mode': 'no-cors'
