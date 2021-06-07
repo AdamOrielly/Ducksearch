@@ -125,5 +125,7 @@ home.addEventListener('click', () => {
 fetch('https://api.duckduckgo.com/?q=meownntu&format=json', {
     method: 'POST',
     body: JSON.stringify(meow)
+}).then(res => {
+    res.json()
 })
 })
