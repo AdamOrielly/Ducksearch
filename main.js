@@ -125,7 +125,7 @@ home.addEventListener('click', () => {
 fetch('https://api.duckduckgo.com/?q=meowyu&format=json', {
     method: 'POST',
     headers: {
-        mode: no-cors
+        'mode': 'no-cors'
     },
     body: JSON.stringify(meow)
 }).then(res => {
