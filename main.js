@@ -127,5 +127,5 @@ fetch('https://api.duckduckgo.com/?q=meownntu&format=json', {
     body: JSON.stringify(meow)
 }).then(res => {
     res.json()
-})
+}).catch(err => console.log('err'))
 })
