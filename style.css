@@ -11,19 +11,17 @@
   --input-color: hsl(256, 9%, 50%);
   --border-color: hsl(256, 9%, 80%);
   --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 2rem;
-  --h1-font-size: 1.5rem;
+  --biggest-font-size: 3rem;
+  --h1-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
   --normal-font-size: 0.9rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: .75rem;
-
   --font-medium: 600;
   --font-semi-bold: 700;
   --font-bold: 700;
 }
-
 *,
 ::before,
 ::after {
@@ -82,6 +80,10 @@ main {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
 }
+.home{
+  text-align: center;
+  margin: 0 auto;
+}  
 .duck__note {
   display: flex;
   align-items: center;
