@@ -1,26 +1,13 @@
 :root {
   --header-height: 5rem;
-  --first-color: hsl(256, 68%, 27%);
-  --first-color-alt: hsl(256, 68%, 22%);
-  --first-color-active-link: hsl(256, 68%, 37%);
-  --title-color: hsl(256, 25%, 90%);
-  --text-color: hsl(256, 8%, 70%);
-  --text-color-light: hsl(256, 8%, 60%);
-  --body-color: hsl(256, 28%, 12%);
-  --container-color: hsl(256, 28%, 16%);
-  --input-color: hsl(256, 9%, 50%);
-  --border-color: hsl(256, 9%, 80%);
+  --first-color: #5c6bc0
+  --title-color: #000;
+  --text-color: grey:
+  --body-color: #FFF;
+  --input-color: grey;
+  --border-color: grey;
   --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 3rem;
-  --h1-font-size: 2rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1.125rem;
-  --normal-font-size: 0.9rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: .75rem;
-  --font-medium: 600;
-  --font-semi-bold: 700;
-  --font-bold: 700;
+  --biggest-font-size: 4rem;
 }
 *,
 ::before,
@@ -29,17 +16,13 @@
   margin: 0;
   padding: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0;
   padding: 0;
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-size: var(--biggest-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  line-height: 1.6;
 }
 
 h1,
@@ -52,12 +35,8 @@ p {
 h1,
 h2,
 h3 {
-  font-weight: var(--font-semi-bold);
+  font-weight: bold;
   color: var(--title-color);
-}
-ul {
-  padding: 0;
-  list-style: none;
 }
 a {
   text-decoration: none;
@@ -133,9 +112,6 @@ main {
   width: 85vw;
   max-width: 500px;
   padding: 4rem 2rem;
-  background-color: var(--container-color);
-  box-shadow: 0 2px 6px rgba(163, 142, 144, 0.15);
-  border-radius: 1rem;
 }
 .form__div {
   position: relative;
@@ -148,7 +124,6 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: var(--normal-font-size);
   border: 1px solid var(--border-color);
   border-radius: .5rem;
   outline: none;
@@ -161,24 +136,19 @@ main {
   left: 1rem;
   top: 1rem;
   padding: 0 .25rem;
-  background-color: var(--container-color);
   color: var(--input-color);
-  font-size: var(--normal-font-size);
 }
 .button{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  font: var(--body-font);
-  font-weight: var(--font-semi-bold);
   border: none;
   padding: 1rem 1.5rem;
   border-radius: .5rem;
-  font-weight: var(--font-semi-bold);
   transition: .3s;
 }
 .button:hover{
-  background-color: var(--first-color-active-link);
+  background-color: hsl(256, 68%, 22%);
   cursor: pointer;
 }
 .duck__link {
