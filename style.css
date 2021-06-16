@@ -59,10 +59,10 @@ main {
   margin-right: 1.2rem;
 }
 .home{
-  font-size:3.3rem;
   text-align: center;
   margin: 0 auto;
-}  
+}
+h1{font-size: 3rem;}
 .duck__note {
   display: flex;
   align-items: center;
