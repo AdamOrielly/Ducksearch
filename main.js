@@ -21,3 +21,4 @@ searchBtn.addEventListener('click', () => {
         `
     }).catch(err => console.error('err'))
 })
+console.log('changes')
